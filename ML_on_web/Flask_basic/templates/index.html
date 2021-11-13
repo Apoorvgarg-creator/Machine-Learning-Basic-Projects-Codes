@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home page</title>
+  </head>
+  <body>
+    <h1>
+        heading1
+    </h1>
+    {% if number > 10%}
+      <p>{{number}} is greater than 10</p>
+    {% else %}
+      <p>{{number}} is smaller than 10</p>
+    {% endif %}
+    {% for f in my_friends %}
+
+      <h2> {{f}} </h2>
+
+    {% endfor %}
+    <h2>
+        Apoorv
+
+    </h2>
+    <p>{{number}}</p>
+    <!-- enctype="multipart/form-data use only when attachment is requested -->
+    <form method="POST" action="/submit" enctype="multipart/form-data">
+      <!-- <input type="text" name="username" placeholder="Enter your name"> -->
+      <input type="text" name="no1" placeholder="Enter your first number">
+      <input type="text" name="no2" placeholder="Enter your second number">
+      <input type="file" name="userfile">
+    <input type="submit">
+    </form>
+  </body>
+</html>

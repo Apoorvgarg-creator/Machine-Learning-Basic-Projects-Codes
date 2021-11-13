@@ -1,28 +1,3 @@
-Machine learning pipeline
-    * Data Generation / collection / Web scrapping
-    * Data clearing / Feature Engineering
-    *Algorithms to find interesting patterns
-    * Deployment
---> Data can be generated from sklearn
-
---> feature engineering --> features on which our algo will depend
---> deep learning includes image, speech and text
-Machine learning are broadly divided into two category -
-1. Supervised Learning
-2. Unsupervised learning
-also --> 3. semi supervised learning
-         4. reinforcement learning
-
-
-********** Supervised Learning ***********
---> learn from past data (labelled)
---> generalize prediction on the future data and avoid "OVERFITTING"
-
---> self notes
-
-
-******* Machine Learning algo ***********
-1. KNN (k - nearest neighbour)
---> helps in classification and Regression
---> supervised learning algorithm
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:75ccca9e6d4b3e6a1047e3a4e8761b6c1f53e6c5968ff7ce0a005de8c6ec768a
+size 834

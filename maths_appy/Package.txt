@@ -1,0 +1,22 @@
+What is a package?
+package is a collection of modules
+To show that a directory is a package they must have __init__.py file
+for example --> math is a package that contains different type of modules
+
+What is a module?
+module is a python file that have different functions and behavior
+
+
+when we import a package, we are basically importing the __init__.py
+
+What is the main use of  __init__.py ?
+by using the __all__ we can import the modules of the package
+
+what if there is a simple print statement in a python file that you imported
+so if you run the the python file , the import file data gets all executed
+To avoid that , we can do -->
+We have a special variable called __name__
+so add the statement
+if __name__ == '__main__':
+   print(hello)
+

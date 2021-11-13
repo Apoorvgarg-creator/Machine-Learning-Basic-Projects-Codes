@@ -1,0 +1,8 @@
+.DS_Store
+venv
+/__pycache__
+.ipynb_checkpoints
+CB_Projects/Covid detection using CNN/chest_xray/train/.DS_Store
+CB_Projects/Covid detection using CNN/chest_xray/chest_xray/.DS_Store
+CB_Projects/Covid detection using CNN/.DS_Store
+.DS_Store

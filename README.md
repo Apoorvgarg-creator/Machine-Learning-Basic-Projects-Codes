@@ -13,3 +13,8 @@ This Repository Contaions several Machine Learning Projects -
 9. Emoji Prediction
 10. Sentiment Analysis using Neural network
 11. Movie recommendation system
+
+
+### Generative Adversarial Networks
+1. GAN
+2. DC-GAN
